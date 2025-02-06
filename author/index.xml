@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on The Chen-Liu Lab</title>
+    <link>https://qiho-p.github.io/author/</link>
+    <description>Recent content in Authors on The Chen-Liu Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://qiho-p.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/author/chong-chen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/author/chong-chen/</guid>
+      <description>The Chen-Liu Laboratory
+Investigate cancer as a biology and a treatment target
+Principal Investigators
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Chong Chen, PhDPhD, University of Michigan-Ann Arbor (2009)BS, Peking University (1999)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Yu Liu, PhDPhD, Albert Einstein College of Medicine (2008)BS, Beijing Normal University (1997)Research Interests
+The Chen-Liu lab aims to understand the biology of cancer and identify new therapeutic targets for treatment. We develop and apply precision cancer models, genome editing, organoid culturing, multi-omics analyses, bioinformatics, and clinical studies to build a full technique chain from basic cancer studies to clinic oncology practice.</description>
+    </item>
+    
+  </channel>
+</rss>

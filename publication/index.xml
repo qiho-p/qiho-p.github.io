@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on The Chen-Liu Lab</title>
+    <link>https://qiho-p.github.io/publication/</link>
+    <description>Recent content in Publications on The Chen-Liu Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://qiho-p.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/2022cc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/2022cc/</guid>
+      <description>Cancer Cell. 2022 Sep 12;40(9):1044-1059.e8. doi: 10.1016/j.ccell.2022.08.010. PMID: 36099882.Acquired semi-squamatization during chemotherapy suggests differentiation as a therapeutic strategy for bladder cancer Wang M#, Chen X#, Tan P#, Wang Y#, Pan X, Lin T, Jiang Y, Wang B, Xu H, Wang Y, Yang Y, Wang J, Zhao L, Zhang J, Zhong A, Peng Y, Du J, Zhang Q, Zheng J, Chen J, Dai S, Na F, Lu Z, Liu J, Zheng X, Yang L, Zhang P, Han P, Gong Q, Zhong Q, Xiao K, Yang H, Deng H, Zhao Y, Shi H, Man J, Gou M, Zhao C, Dai L, Xue Z, Chen L, Wang Y, Zeng M, Huang C, Wei Q, Wei Y, Liu Y, Chen C.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/deletions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/deletions/</guid>
+      <description>Nature. 2016 Mar 24;531(7595):471-475. doi: 10.1038/nature17157. Epub 2016 Mar 16.Deletions linked to TP53 loss drive cancer through p53-independent mechanisms Liu Y, Chen C, Xu Z, Scuoppo C, Rillahan CD, Gao J, Spitzer B, Bosbach B, Kastenhuber ER, Baslan T, Ackermann S, Cheng L, Wang Q, Niu T, Schultz N, Levine RL, Mills AA, Lowe SW.Abstract Mutations disabling the TP53 tumour suppressor gene represent the most frequent events in human cancer and typically occur through a two-hit mechanism involving a missense mutation in one allele and a &#39;loss of heterozygosity&#39; deletion encompassing the other.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/drug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/drug/</guid>
+      <description>Signal Transduct Target Ther. 2019 Apr 26;4:11. doi: 10.1038/s41392-019-0040-2. eCollection 2019.Epigenetic drug library screening identified an LSD1 inhibitor to target UTX-deficient cells for differentiation therapy Wu B, Pan X, Chen X, Chen M, Shi K, Xu J, Zheng J, Niu T, Chen C, Shuai X, Liu Y.Abstract UTX (also known as KDM6A), a histone 3 lysine 27 demethylase, is among the most frequently mutated epigenetic regulators in myelodysplastic syndrome (MDS) and acute myeloid leukemia (AML).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/epigenetic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/epigenetic/</guid>
+      <description>Cancer Discov.2021 Jan;11(1):194-207. doi: 10.1158/2159-8290.CD-20-0336. Epub 2020 Sep 25.An Epigenetic Mechanism Underlying Chromosome 17p Deletion-Driven Tumorigenesis Chen M, Chen X, Li S, Pan X, Gong Y, Zheng J, Xu J, Zhao C, Zhang Q, Zhang S, Qi L, Wang Z, Shi K, Ding BS, Xue Z, Chen L, Yang S, Wang Y, Niu T, Dai L, Lowe SW, Chen C, Liu Y.Abstract Chromosome copy-number variations are a hallmark of cancer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/mll3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/mll3/</guid>
+      <description>Cancer Cell. 2014 May 12;25(5):652-65. doi: 10.1016/j.ccr.2014.03.016. Epub 2014 May 1.MLL3 is a haploinsufficient 7q tumor suppressor in acute myeloid leukemia Chen C, Liu Y, Rappaport AR, Kitzing T, Schultz N, Zhao Z, Shroff AS, Dickins RA, Vakoc CR, Bradner JE, Stock W, LeBeau MM, Shannon KM, Kogan S, Zuber J, Lowe SW.Abstract Recurring deletions of chromosome 7 and 7q [-7/del(7q)] occur in myelodysplastic syndromes and acute myeloid leukemia (AML) and are associated with poor prognosis.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/mosaic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/mosaic/</guid>
+      <description>JCI Insight. 2022 Feb 8;7(3):e153768. doi: 10.1172/jci.insight.153768.Mosaic loss of chromosome Y promotes leukemogenesis and clonal hematopoiesis Zhang Q, Zhao L, Yang Y, Li S, Liu Y, Chen C.Abstract Mosaic loss of chromosome Y (mLOY) in blood cells is one of the most frequent chromosome alterations in adult males. It is strongly associated with clonal hematopoiesis, hematopoietic malignancies, and other hematopoietic and nonhematopoietic diseases. However, whether there is a causal relationship between mLOY and human diseases is unknown.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/nc2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/nc2022/</guid>
+      <description>Nature cancer . 2022 April 21. doi: https://doi.org/10.1038/s43018-022-00361-6.KMT2C deficiency promotes small cell lung cancer metastasis through DNMT3A-mediated epigenetic reprogramming Feifei Na, Xiangyu Pan, Jingyao Chen, Xuelan Chen, Manli Wang, Pengliang Chi, Liting You, Lanxin Zhang, Ailing Zhong, Lei Zhao, Siqi Dai, Mengsha Zhang, Yiyun Wang, Bo Wang, Jianan Zheng, Yuying Wang, Jing Xu, Jian Wang, Baohong Wu, Mei Chen, Hongyu Liu, Jianxin Xue, Meijuan Huang, Youling Gong, Jiang Zhu, Lin Zhou, Yan Zhang, Min Yu, Panwen Tian, Mingyu Fan, Zhenghao Lu, Zhihong Xue, Yinglan Zhao, Hanshuo Yang, Chengjian Zhao, Yuan Wang, Junhong Han, Shengyong Yang, Dan Xie, Lu Chen, Qian Zhong, Musheng Zeng, Scott W.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/nivolumab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/nivolumab/</guid>
+      <description>Blood. 2020 Mar 12;135(11):826-833. doi: 10.1182/blood.2019003886.Nivolumab treatment of relapsed/refractory Epstein-Barr virus-associated hemophagocytic lymphohistiocytosis in adults Liu P, Pan X, Chen C, Niu T, Shuai X, Wang J, Chen X, Liu J, Guo Y, Xie L, Wu Y, Liu Y, Liu T.Abstract Epstein-Barr virus (EBV)-associated hemophagocytic lymphohistiocytosis (EBV-HLH) is a life-threatening hyperinflammatory syndrome triggered by EBV infection. It often becomes relapsed or refractory (r/r), given that etoposide-based regimens cannot effectively clear the virus.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qiho-p.github.io/publication/sttt2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiho-p.github.io/publication/sttt2022/</guid>
+      <description>Signal Transduct Target Ther. 2022 Apr 13; doi: 10.1038/s41392-022-00946-8. PMID: 35418165.Identifying a confused cell identity for esophageal squamous cell carcinoma Xiangyu Pan, Jian Wang, Linjie Guo, Feifei Na, Jiajia Du, Xuelan Chen, Ailing Zhong, Lei Zhao, Lu Zhang, Mengsha Zhang, Xudong Wan, Manli Wang, Hongyu Liu, Siqi Dai, Ping Tan, Jingyao Chen, Yu Liu, Bing Hu &amp; Chong ChenAbstract The cell identity of malignant cells and how they acquire it are fundamental for our understanding of cancer.</description>
+    </item>
+    
+  </channel>
+</rss>
