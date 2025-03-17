@@ -1,0 +1,20 @@
+/* 示例：调整容器宽度 */
+.container {
+    max-width: 90%; /* 使容器宽度随屏幕缩放 */
+    width: 90%; /* 设置宽度为100% */
+    padding: 0 20px; /* 根据需要调整内边距 */
+}
+
+/* 示例：调整主体内容宽度 */
+body {
+    margin: 0 auto;
+    max-width: 90%; /* 使主体宽度随屏幕缩放 */
+    width: 90%; /* 设置宽度为100% */
+}
+/* 示例：在小屏幕上调整宽度 */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 0 10px;
+    }
+}
