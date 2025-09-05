@@ -1,0 +1,393 @@
+/*防止滑出*/
+html, body {
+  overflow-x: hidden;
+}
+
+/* 设置全站背景颜色和文字颜色 */
+body {
+  background-color: #f9f9f9;  /* 浅灰色背景 */
+  color: #090909;                /* 深灰文字 */
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+/* 修改导航栏背景颜色 */
+.navbar {
+  background-color: #ffffff !important; 
+}
+header.navbar-affixed-top .navbar {
+  background-color: #ffffff !important;
+}
+
+/* 固定整个 header 在页面顶部 */
+header.navbar-affixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 避免正文内容被导航栏遮挡（你可以根据实际高度微调） */
+body {
+  padding-top: 60px; /* 假设 header 高度为 80px，可根据实际情况修改 */
+}
+
+
+
+/* 修改标题颜色 */
+h1, h2, h3 {
+  color: #005a9c;
+}
+
+/* 修改链接颜色 */
+a {
+  color: #2e7fe0; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66ccff;  
+}
+
+.person-section {
+  max-width: 100%;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.person-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.person-card {
+  max-width: 300px;
+  text-align: center;
+}
+
+.person-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.person-card a {
+  color: #2e7fe0;
+  text-decoration: none;
+}
+
+.person-card a:hover {
+  color: #66ccff;
+}
+
+.content-centered {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* 自定义轮播图按钮颜色（如果你用了 Swiper） */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 50%;
+}
+
+/* 覆盖默认箭头文字 */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+/* 自定义箭头外观 */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* 鼠标移入时放大 */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: scale(1.05);
+}
+
+/* 调整 SVG 图标大小和颜色 */
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 16px;
+  height: 16px;
+  fill: white;
+}
+
+/* 默认隐藏分页点和导航箭头 */
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev,
+.custom-swiper .swiper-pagination {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  transform: translateY(5px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none; /* 禁止点击，防止误触 */
+}
+
+.custom-swiper:hover .swiper-button-next,
+.custom-swiper:hover .swiper-button-prev,
+.custom-swiper:hover .swiper-pagination {
+  opacity: 1;
+  pointer-events: auto; /* 恢复交互能力 */
+}
+
+#leafletMap {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* members的修饰内容*/
+.member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+.member-grid img {
+  max-width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.member-grid img:hover {
+  transform: scale(1.05);
+}
+
+.member-grid p {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+.close {
+  position: absolute;
+  top: 0.5rem; right: 1rem;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover {
+  color: #000;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.modal-content p {
+  margin-bottom: 0.75rem;
+}
+
+.person-name-link {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover .person-name-link {
+  text-decoration: underline;
+  color: #000; /* 保持为黑色 */
+}
+
+
+/*子主题*/
+/* 清除所有导航链接默认下划线 */
+.navbar-nav li a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* 鼠标悬停时出现下划线 */
+.navbar-nav li a:hover {
+  text-decoration: underline !important;
+}
+
+/* 激活状态下不出现下划线 */
+.navbar-nav li.active a {
+  text-decoration: none !important;
+}
+
+/*模态框*/
+.field-block {
+  margin-bottom: 0.8rem;
+}
+
+.field-label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  color: #000;
+}
+
+.multiline {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: inherit;
+  background: none;
+  padding: 0;
+  border: none;
+  overflow: visible;
+}
+
+.prefix, .content {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+  display: inline !important;
+  vertical-align: middle;
+}
+
+/* 如果在flex容器内，缩小gap */
+.container {
+  display: flex !important;
+  gap: 0.25rem !important;
+  align-items: center !important;
+}
+
+.centered-main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+
+.modal-content p {
+  margin: 0.3rem 0 0.2rem 0;
+}
+.modal-content .multiline {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+/*返回顶部按钮*/
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 9999;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #333, #444);  /* 深灰渐变 */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+#backToTopBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(135deg, #222, #2e2e2e); /* 更暗的灰色 */
+}
+
+/*左侧导航栏*/
+.nav-floating {
+  position: fixed;
+  top: 50%;
+  left: 24px;
+  transform: translateY(-50%);
+  z-index: 1000;
+  width: 160px;
+  padding: 1.2rem 1rem;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #f0f4f8, #e6ecf2);  /* 浅色渐变 */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  color: #333;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 1px solid #d0d8e0;
+  transition: box-shadow 0.3s ease;
+}
+
+
+.nav-floating:hover {
+  box-shadow: 0 6px 32px rgba(0, 0, 0, 0.12);
+}
+
+.nav-floating .nav-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #666;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+}
+
+.nav-floating ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-floating li {
+  margin: 0.5rem 0;
+}
+
+.nav-floating a {
+  color: #222;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.nav-floating a:hover {
+  color: #005288;
+  text-decoration: underline;
+}
+
+
+
+

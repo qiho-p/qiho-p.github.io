@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>The Chen-Liu Lab</title>
+<meta name="author" content="Cloudy" />
+
+
+
+
+
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.103.0" />
+
+
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v6.7.2/css/all.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
+<link href="/css/animate.css" rel="stylesheet">
+
+
+
+  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+<link href="/css/custom.css?1757086418" rel="stylesheet">
+
+
+
+  <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+
+
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+
+
+<link rel="alternate" href="https://qiho-p.github.io/index.xml" type="application/rss+xml" title="The Chen-Liu Lab">
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:title" content="The Chen-Liu Lab">
+
+<meta name="twitter:description" content="">
+
+
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <style>
+      .swiper-container.custom-swiper {
+        width: 100%;
+        max-width: 1200px;    
+        margin: 0 auto;        
+        position: relative;    
+        height: 500px;
+      }
+
+      .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+       
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: white;
+        width: 40px;
+        height: 40px;
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .swiper-button-prev {
+        left: 10px;
+      }
+
+      .swiper-button-next {
+        right: 10px;
+      }
+
+       
+      .swiper-pagination {
+        bottom: 10px !important;
+      }
+    </style>
+
+    <style>
+      .swiper-container {
+        width: 100%;
+        height: 400px;  
+      }
+      .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        
+
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm " role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                  <img src="/img/logo.png" alt="Logo" height="40" />
+                </a>
+
+
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+
+                  
+                  
+                  
+
+                  
+                    
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown active">
+                    <a href="/">Home</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/publications/">Publications</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/people/">People</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/events/">Events</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/fun/">Fun</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/contact/">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+        
+        <section class="custom-slider">
+          <div class="swiper-container custom-swiper">
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide">
+                <img src="/img/slider/slide1.jpg" alt="Slide" />
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="/img/slider/cancercell.carousel3.png" alt="Slide" />
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="/img/slider/naturecancer.carousel.png" alt="Slide" />
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="/img/slider/CD.carousel.png" alt="Slide" />
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="/img/slider/pnas.png" alt="Slide" />
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="/img/slider/nc2025.carousel.png" alt="Slide" />
+              </div>
+              
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            
+            
+            <div class="swiper-button-prev">
+              <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="12 4 6 10 12 16" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+            
+            <div class="swiper-button-next">
+              <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="8 4 14 10 8 16" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+          </div>
+        </section>
+        
+
+
+        
+
+
+
+
+        
+<section class="custom-home-text" style="padding: 3rem 1rem;">
+  <div class="container" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; max-width: 1200px; margin: auto;">
+    
+    
+    <div style="flex: 1; min-width: 300px;">
+      <img src="/img/lab.webp" alt="Lab Image" style="width: 100%; border-radius: 1rem;">
+    </div>
+
+    
+    <div style="flex: 1; min-width: 300px;">
+      <h2 class="text-center">Welcome to Our Lab</h2>
+      <p>
+        The CC-LY Lab is a joint research group led by Prof. Chong Chen and Prof. Yu (Kiki) Liu at the State Key Laboratory of Biotherapy, West China Hospital, Sichuan University. Our lab focuses on cancer biology, aiming to uncover fundamental biological principles using cancer as a model system while translating discoveries into improved diagnostics and therapies for cancer patients.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<section style="padding: 2rem 1rem;">
+  <div class="container" style="max-width: 1200px; margin: auto;">
+    <div class="row" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+      
+      
+      <div style="flex: 1; min-width: 300px;">
+        <h3>Prof. Yu (Kiki) Liu</h3>
+        <p>
+          Prof. Yu investigates the functional roles and mechanisms of chromosome copy number variations (CNVs) in tumorigenesis and treatment response. Her work has demonstrated that chromosome 17p deletions drive cancer development beyond the loss of p53, leading to the identification of novel tumor suppressor genes in this region, including <strong>PHF23</strong> and <strong>ALOX15B</strong> (<em>Nature</em> 2016, <em>Cancer Discovery</em> 2021).
+        </p>
+      </div>
+
+      
+      <div style="flex: 1; min-width: 300px;">
+        <h3>Prof. Chong Chen</h3>
+        <p>
+          Prof. Chen studies epigenetic reprogramming and lineage plasticity in cancer evolution. He developed a series of primary, orthotopic, driver-defined, and immunocompetent cancer models using genetically engineered organoids, termed <strong>GEOMMs</strong>. Using these models, he discovered <strong>KMT2C</strong> (MLL3) as a tumor suppressor and revealed its role in lung cancer metastasis (<em>Cancer Cell</em> 2014, <em>Nature Cancer</em> 2022). He also identified a new form of lineage plasticity, “semi-squamatization,” linked to chemotherapy resistance (<em>Cancer Cell</em> 2022). Recently, his research expanded to acquired immunotherapy resistance mechanisms (<em>PNAS</em> 2025).
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        <footer id="footer">
+    <div class="container">
+
+        
+
+        <div class="col-md-4 col-sm-6">
+
+            
+
+        </div>
+        
+
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-right">
+              &copy; 2025 The Chen-Liu Lab. All rights reserved.
+            </p>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<button id="backToTopBtn" title="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<script>
+  const backToTopBtn = document.getElementById("backToTopBtn");
+
+  window.onscroll = function () {
+    if (document.documentElement.scrollTop > 100) {
+      backToTopBtn.style.display = "flex";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  };
+
+  backToTopBtn.onclick = function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+</script>
+
+
+
+    </div>
+    
+     <script src="/js/swiper-bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container', {
+          loop: true,
+          speed: 2000,
+          autoplay: { delay: 5000 },
+          effect: "coverflow",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: { el: '.swiper-pagination', clickable: true },
+          navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+        });
+      });
+    </script>
+
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+<script>
+function openModal(id) {
+  document.getElementById(id).style.display = "block";
+}
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+}
+window.onclick = function(event) {
+  document.querySelectorAll(".modal").forEach(function(modal) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+}
+</script>
+
+
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    
+    const map = L.map('leafletMap').setView([30.639859, 104.067569], 16);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([30.639859, 104.067569]).addTo(map)
+      .bindPopup("The Chen-Liu Lab<br>No. 8 Linyin Street,, Chengdu")
+      .openPopup();
+  });
+</script>
+
+
+  </body>
+</html>
