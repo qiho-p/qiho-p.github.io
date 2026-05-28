@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on The Chen-Liu Lab</title>
-    <link>https://qiho-p.github.io/publications/</link>
+    <link>https://example.org/publications/</link>
     <description>Recent content in Publications on The Chen-Liu Lab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://qiho-p.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/publications/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
